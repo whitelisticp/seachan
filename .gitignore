@@ -1,0 +1,6 @@
+.dfx
+.vessel
+dist
+node_modules
+src
+.env

@@ -1,0 +1,10 @@
+{
+  "seachan_backend": {
+    "ic": "y26ux-qiaaa-aaaag-aap3q-cai",
+    "staging": "g5q4r-zqaaa-aaaak-qasza-cai"
+  },
+  "seachan_frontend": {
+    "ic": "sfjch-siaaa-aaaak-qarnq-cai",
+    "staging": "g2r2f-uiaaa-aaaak-qaszq-cai"
+  }
+}

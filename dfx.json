@@ -1,0 +1,44 @@
+{
+  "canisters": {
+    "seachan_backend": {
+      "main": "canisters/seachan_backend/Main.mo",
+      "type": "motoko"
+    },
+    "seachan_frontend": {
+      "dependencies": [
+        "seachan_backend"
+      ],
+      "frontend": {
+        "entrypoint": "dist/index.html"
+      },
+      "source": [
+        "dist/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "vessel sources"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    },
+    "staging": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}
