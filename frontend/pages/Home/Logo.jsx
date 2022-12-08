@@ -6,7 +6,7 @@ const Logo = () => {
     return (
         <div style={{ marginBottom: "10px" }}>
             <img
-                title={"Logo by EgidoVal (https://egidoval.com/)"}
+                title={"Logo by Ludo (http://thisisludo.com/)"}
                 style={{ display: "block", marginLeft: "auto", marginRight: "auto", maxWidth: isMobile ? "100%" : "50%" }}
                 src={logo}
             />
